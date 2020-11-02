@@ -1,7 +1,7 @@
 # Restaurant Search
 
 ## Database table creation
-
+```
 CREATE TABLE `restaurant` (
   `id` int NOT NULL AUTO_INCREMENT,
   `restaurant_id` int(11) NOT NULL,
@@ -17,6 +17,7 @@ CREATE TABLE `restaurant` (
   `updatedOn` datetime DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+```
 
 ## Configuration for Backend
 
